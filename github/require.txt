@@ -1,0 +1,21 @@
+票核通 - 前置环境清单
+
+一、安装后运行必须满足
+
+1. 操作系统：Windows 7 SP1 x64 或更新版本。
+2. 系统补丁：Windows 7 需要安装 Microsoft Universal C Runtime 更新；如系统提示缺少 api-ms-win-*.dll，请先补齐 Windows 更新或安装 Microsoft Visual C++ 2015-2022 Redistributable x64。
+3. 浏览器：同网段访问电脑或手机需要 Chrome、Edge、Firefox 等现代浏览器。
+4. 网络：防火墙需要允许本软件使用的 TCP 端口，默认端口为 8080。
+5. 权限：安装目录需要允许当前 Windows 用户写入，数据会保存在安装目录下的 data 文件夹。
+
+二、安装包已内置，不需要单独安装
+
+1. Python 3.8 运行时和 Python 依赖库。
+2. Web 前端资源。
+3. Tesseract OCR、中文/英文语言包。
+4. 二维码识别组件 zxing-cpp。
+
+三、仅重新构建安装包时需要
+
+1. Inno Setup 6。
+2. Node.js 18 或更新版本，用于构建 web 前端。
